@@ -1,21 +1,19 @@
 # faucet-config
-This repository has become the main configuration repo for my whole master thesis project, not just the faucet controller.
-Therefore, it is now the main entrypoint for my thesis project, DistriMUD.
-For an in depth explanation of the DistriMUD architecture, I refer to: see TODO TUE link when published.
+This repository has become the main configuration repo for MeshGuard, not just the faucet controller.
 
 Multiple other repositories are needed to run the whole project. These should be cloned in the parent directory of this repo.
 To setup the Faucet/MUDManager:
 ```
-├── faucet              Cloned from https://github.com/WoutervanHoof/faucet
-├── faucet-config       This repo https://github.com/WoutervanHoof/faucet-config
-└── mud-manager         Cloned from https://github.com/WoutervanHoof/mud-manager (currently private, will be public after publication)
+├── faucet              Cloned from [https://anonymous.4open.science/r/faucet-CA68/README.rst](https://anonymous.4open.science/r/faucet-CA68/README.rst)
+├── faucet-config       This repo
+└── mud-manager         Cloned from [https://anonymous.4open.science/r/mud-manager-5CDF/README.md](https://anonymous.4open.science/r/mud-manager-5CDF/README.md) 
 ```
 
-To build the demo application for the nRF52840 or nRF52833 to act as FTDs or MTDs: see https://github.com/WoutervanHoof/mt-cli
-This repo overrides the normal openthread library with my version: https://github.com/WoutervanHoof/openthread
+To build the demo application for the nRF52840 or nRF52833 to act as FTDs or MTDs: see [https://anonymous.4open.science/r/mt-cli-C008/README.md](https://anonymous.4open.science/r/mt-cli-C008/README.md)
+This repo overrides the normal openthread library with my version: [https://github.com/openthread/openthread](https://github.com/openthread/openthread)
 This openthread fork includes the DistriMUD functionality for sharing MUD URLs inside a Thread network.
 
-Finally, for deploying a border router, see https://github.com/WoutervanHoof/otbr-posix
+
 This is a clone of the normal openthread border router repo, but with a MUD Forwarder service.
 For running the demo environment, build the docker container image for the border router. Be sure to update the name of the image in the `./scripts/run_demo.sh` script with your name.
 
