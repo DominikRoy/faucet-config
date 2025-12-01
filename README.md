@@ -1,5 +1,5 @@
 # faucet-config
-This repository has become the main configuration repo for MeshGuard, not just the faucet controller.
+This repository has become the main configuration repo for Fd, not just the faucet controller.
 
 Multiple other repositories are needed to run the whole project. These should be cloned in the parent directory of this repo.
 To setup the Faucet/MUDManager:
@@ -11,7 +11,7 @@ To setup the Faucet/MUDManager:
 
 To build the demo application for the nRF52840 or nRF52833 to act as FTDs or MTDs: see [https://anonymous.4open.science/r/mt-cli-C008/README.md](https://anonymous.4open.science/r/mt-cli-C008/README.md)
 This repo overrides the normal openthread library with my version: [https://github.com/openthread/openthread](https://github.com/openthread/openthread)
-This openthread fork includes the DistriMUD functionality for sharing MUD URLs inside a Thread network.
+This openthread fork includes the MeshGuard functionality for sharing MUD URLs inside a Thread network.
 
 
 This is a clone of the normal openthread border router repo, but with a MUD Forwarder service.
