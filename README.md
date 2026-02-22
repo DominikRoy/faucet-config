@@ -10,6 +10,8 @@ To setup the Faucet/MUDManager:
 ```
 ## Depolyment Architecture
 In the following, we provide an example of the MeshGuard on how to deploy it for testing and executing experiments:
+
+
 ![Deployment Architecture for an example Scenario of MeshGuard](current_demo_extended.drawio.svg)
 
 
