@@ -1,6 +1,6 @@
 # MeshGuard
 This repository provides a detailed description on how to deploy and configure MeshGuard for various scenarios.
-## Prequiste Repositories
+## Prerequisite Repositories
 To deploy MeshGuard, we require multiple repositories. These should be cloned in the parent directory of this repository.
 To setup the Faucet/MUDManager:
 ```
