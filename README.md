@@ -14,14 +14,6 @@ To setup the Faucet/MUDManager:
 ## Depolyment Architecture
 In the following, we provide an example of the MeshGuard on how to deploy it for testing and executing experiments:
 
-
-![Deployment Architecture](architecture.png)
-
-
-
-## Depolyment Architecture
-In the following, we provide an example of the MeshGuard on how to deploy it for testing and executing experiments:
-
 ![Deployment Architecture](architecture.png)
 
 1. The MUD-related components and the SDN controller are deployed in the docker container, where the code for the SDN controller is in this repository.
